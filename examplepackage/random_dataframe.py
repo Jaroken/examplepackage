@@ -18,6 +18,11 @@ class random_dataframe:
         pos2 = ['yawn', 'jump', 'swim', 'run', 'walk', 'kick', 'punch', 'pick', 'stretch', 'break']
         pos3 = ['boy', 'girl', 'pasta', 'salad', 'rhino', 'youtube', 'google', 'apple', 'meta', 'netflix']
 
+        def one_to_ten():
+            """ returns a random number from 1 to 10"""
+            x = random.randint(1,10)
+            return(x)
+
         for k in range(n):
 
             rand_name = pos1[one_to_ten()]+'_'+pos2[one_to_ten()]+'_'+pos3[one_to_ten()]+'_'+str(one_to_ten())
@@ -26,7 +31,3 @@ class random_dataframe:
 
 
 
-    def one_to_ten():
-        """ returns a random number from 1 to 10"""
-        x = random.randint(1,10)
-        return(x)
