@@ -10,7 +10,7 @@ class random_dataframe:
         self.df = pd.DataFrame()
         self.length = length
 
-    def add_random_columns(self, n):
+    def add_random_columns(self, n=1):
         """ make a random column of name, length, and number type.
          :param n: number of columns to add (int)"""
 
