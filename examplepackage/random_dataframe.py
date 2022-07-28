@@ -10,9 +10,9 @@ class random_dataframe:
         self.df = pd.DataFrame()
         self.length = length
 
-    def add_random_columns(self, n=1):
+    def add_random_columns(self, ncols=1):
         """ make a random column of name, length, and number type.
-         :param n: number of columns to add (int)"""
+         :param ncols: number of columns to add (int)"""
 
         pos1 = ['monkey', 'bug', 'ant', 'gorilla', 'banana', 'pizza', 'dog', 'fruit', 'topic', 'gentry']
         pos2 = ['yawn', 'jump', 'swim', 'run', 'walk', 'kick', 'punch', 'pick', 'stretch', 'break']
@@ -23,7 +23,7 @@ class random_dataframe:
             x = random.randint(1,10)
             return(x)
 
-        for k in range(n):
+        for k in range(ncols):
 
             rand_name = pos1[one_to_ten()-1]+'_'+pos2[one_to_ten()-1]+'_'+pos3[one_to_ten()-1]+'_'+str(one_to_ten())
 

@@ -22,6 +22,7 @@ conda install pip
 pip install git+https://github.com/Jaroken/examplepackage
 ```
 ### How to run package once installed 
+#### the package can be used with any python3.5 interpreter or greater like so
 importing package and functionality is the same in any environment
 ```python 
 Python 3.9.12 (main, Apr  5 2022, 06:56:58) 
@@ -42,5 +43,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 7                   9                      3
 8                   8                      6
 9                   5                      7
+
+```
+
+#### Alternatively there is a main.py script that can be run from console as a simple script with arguements
+first arg provided is 2 for number of rows
+second arg provided is 3 for number of columns
+```commandline
+ python main.py 2 3
+   monkey_break_youtube_1  topic_stretch_netflix_5  topic_kick_youtube_1
+0                       8                       10                     8
+1                       5                        8                     9
 
 ```
