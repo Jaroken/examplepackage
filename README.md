@@ -28,8 +28,8 @@ importing package and functionality is the same in any environment
 Python 3.9.12 (main, Apr  5 2022, 06:56:58) 
 [GCC 7.5.0] :: Anaconda, Inc. on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> from examplepackage import random_dataframe
->>> dz = random_dataframe.random_dataframe()
+>>> import examplepackage
+>>> dz = examplepackage.random_dataframe()
 >>> dz.add_random_columns(2)
 >>> dz.df
    monkey_run_pasta_1  topic_punch_netflix_3
