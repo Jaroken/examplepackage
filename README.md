@@ -49,6 +49,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 #### Alternatively there is a main.py script that can be run from console as a simple script with arguements
 first arg provided is 2 for number of rows
 second arg provided is 3 for number of columns
+
+I believe the following will only work if you can locate the main.py file after installing the package. 
+I recommend cloning the package after you install it in the environment you are using. the code below will work if you are in the examplepackages folder to run main.py
 ```commandline
  python main.py 2 3
    monkey_break_youtube_1  topic_stretch_netflix_5  topic_kick_youtube_1
