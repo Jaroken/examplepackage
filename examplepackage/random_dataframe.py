@@ -25,7 +25,7 @@ class random_dataframe:
 
         for k in range(n):
 
-            rand_name = pos1[one_to_ten()]+'_'+pos2[one_to_ten()]+'_'+pos3[one_to_ten()]+'_'+str(one_to_ten())
+            rand_name = pos1[one_to_ten()-1]+'_'+pos2[one_to_ten()-1]+'_'+pos3[one_to_ten()-1]+'_'+str(one_to_ten())
 
             self.df[rand_name] = [one_to_ten() for i in range(self.length)]
 
